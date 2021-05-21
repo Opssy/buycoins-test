@@ -74,13 +74,11 @@ li.list {
 }
 h6.ttl {
     font-size: 15px;
-    font-weight: 100;
+   font-weight: 400;
 }
 .dip {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 33.334% 66.667%;
 }
 img.user {
        width: 250px;
@@ -111,7 +109,7 @@ p.stack {
     margin-left: -37px;
 }
 input.find {
-    width: 177%;
+    width: 92%;
     height: 37px;
     border-radius: 8px;
     border: 1px solid #8080804a;
@@ -144,4 +142,87 @@ input.find {
     width: 18%;
     top: 258px;
     background-color: #80808038;
+}
+span.span-icon {
+    position: relative;
+    right: 25px;
+    top: 26px;
+}
+.display-wrap {
+    margin-top: 43px;
+    margin-left: -35px;
+}
+h3.user-name {
+    font-size: 20px;
+    color: #0065ffd4;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.gmw {
+    display: flex;
+}
+span.color {
+    padding: 0px 11px;
+    border-radius: 37px;
+    background-color: red;
+    margin-right: 7px;
+}
+.gnm {
+    margin: 7px 11px;
+}
+.mnw.gnm {
+    margin-left: 0px;
+}
+.wrpps {
+    margin-right: 71px;
+}
+button.wrap-btn {
+    padding: 1px 8px;
+}
+.display::after{
+     position: absolute;
+    content: '';
+    height: 1px;
+    margin: 0 auto;
+    left: 323px;
+    right: 0;
+    width: 56%;
+    top: 391px;
+    background-color: #80808038;
+}
+img.profile {
+   width: 37px;
+    height: 37px;
+    border-radius: 48px;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.profile-img {
+    margin-right: 29px;
+    margin-top: -8px;
+}
+i.fas.fa-caret-down {
+    color: #fff;
+}
+i.far.fa-bell {
+    color: #fff;
+}
+i.fas.fa-plus {
+	 color: #fff;
+}
+span.crest {
+    position: relative;
+    top: -14px;
+}
+.icon-sp {
+    position: relative;
+    right: 79px;
+    top: 26px;
+}
+span.ic-sp {
+    margin: 0px 5px;
 }
