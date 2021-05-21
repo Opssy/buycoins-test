@@ -38,8 +38,8 @@ li.list {
     color: #fff;
     list-style: none;
     display: inline;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
     font-family: 'Poppins';
 }
 .list-wrapper {
@@ -214,6 +214,15 @@ i.far.fa-bell {
 i.fas.fa-plus {
 	 color: #fff;
 }
+i.fas.fa-book-open {
+    color: #8080804d;
+}
+i.fas.fa-chart-bar {
+    color: #8080804d;
+}
+i.fas.fa-cube {
+	color: #8080804d;
+}
 span.crest {
     position: relative;
     top: -14px;
@@ -225,4 +234,19 @@ span.crest {
 }
 span.ic-sp {
     margin: 0px 5px;
+}
+span.fig {
+    border: 2px solid #8080804d;
+    padding: 1px 4px;
+    border-radius: 16px;
+    background-color: #8080804d;
+}
+span.smiley {
+    position: relative;
+    bottom: 67px;
+    left: 31px;
+    border: 2px solid #fff;
+    padding: 2px 6px;
+    border-radius: 27px;
+    background-color: #fff;
 }
