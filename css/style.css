@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: "Poppins"
+}
+header {
+    background-color: #000;
+    height: 68px;
+}
+.wrapper-child {
+    display: flex;
+}
+img.nav-logo {
+    height: 40px;
+}
+li.list {
+    color: #fff;
+    list-style: none;
+    display: inline;
+}
+.img-wrapper {
+    margin: 14px 0em 10px 2em;
+}
+input.input-form {
+    width: 295px;
+    height: 33px;
+}
+.form {
+    margin-left: 30px;
+    margin-top: 18px;
+}
+ul.ull {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+li.list {
+    color: #fff;
+    list-style: none;
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: 'Poppins';
+}
+.list-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+}
+.list-wrapper::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    margin: 0 auto;
+    left: 0;
+    right: 0px;
+    width: 100%;
+    top: 120px;
+    background-color: #80808038;
+}
+.after::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    margin: 0 auto;
+    left: 0px;
+    right: 133px;
+    width: 12%;
+    top: 120px;
+    background-color: #f95405;
+}
+.box-wrap {
+    margin: 0em 2em;
+}
+h6.ttl {
+    font-size: 15px;
+    font-weight: 100;
+}
+.dip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+img.user {
+       width: 250px;
+    border-radius: 127px;
+    height: 256px;
+    position: relative;
+    left: 68px;
+    top: -23px;
+    z-index: 0;
+}
+h3.username {
+    font-weight: 600;
+    margin-left: 61px;
+    font-size: 23px;
+}
+span.nick {
+    margin-left: 60px;
+    color: #00000082;
+}
+p.stack {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.rep-dip {
+    margin-top: 28px;
+    margin-left: -37px;
+}
+input.find {
+    width: 177%;
+    height: 37px;
+    border-radius: 8px;
+    border: 1px solid #8080804a;
+}
+.rep-dip::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    margin: 0 auto;
+    left: 323px;
+    right: 0;
+    width: 56%;
+    top: 200px;
+    background-color: #80808038;
+}
+.rep {
+    margin-top: 37px;
+    margin-left: -37px;
+}
+.repo {
+    margin: 0px 5em;
+}
+.rep::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    margin: 0 auto;
+    left: 0;
+    right: 234px;
+    width: 18%;
+    top: 258px;
+    background-color: #80808038;
+}
