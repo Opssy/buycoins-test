@@ -108,5 +108,19 @@ h6.ttl {
     top: 257px;
     background-color: #f95405;
 }
+.list-wrapper {
+    margin-top: -32em;
+}
+.displays::after {
+  display: none;
+}
+
+.displayd::after {
+display: none;
+}
+
+.displayed::after {
+display: none;
+}
 
 }
